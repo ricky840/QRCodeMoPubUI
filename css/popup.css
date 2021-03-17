@@ -1,0 +1,57 @@
+body {
+	width: 26em;
+}
+
+.mopub-menu {
+	/* background: #14171a !important; */
+	box-shadow: 0 1px 5px rgba(0,0,0,.35) !important;
+	border-radius: 0rem !important;
+}
+
+.mopub-button-color {
+	background-color: #1da1f2 !important;
+	color: #FFFFFF !important;
+	font-weight: bold !important;
+	box-shadow: none !important;
+	border: 1px solid #1da1f2 !important;
+}
+
+.mopub-button-color:hover {
+	background-color: #1a91da !important;
+	border-color: #1a91da !important;
+	color: #fff !important;
+}
+
+/* Button Radius */
+.mopub-button-radius {
+	border-radius: 1.6rem !important;
+}
+
+.mopub-logo-menu {
+  overflow: hidden;
+  background: url(/img/main_mopub_logo.svg) 0 no-repeat;
+  width: 80px;
+  height: 29px;
+  margin-left: 8px;
+}
+
+.response_textarea {
+	min-height: 15em !important;
+	max-height: unset !important;
+}
+
+.version {
+	font-weight: 200;
+	font-size: 0.8em;
+	margin-left: 3em;	
+}
+
+.info-segment {
+	padding-top: 0.5em !important;
+	padding-bottom: 0.5em !important;
+}
+
+.info-segment .title {
+	font-weight: bold !important;
+}
+

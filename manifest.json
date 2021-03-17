@@ -1,0 +1,33 @@
+{
+  "name": "QRCodeGen for MoPub UI",
+  "version": "0.0.1",
+  "description": "Insert QRCode in MoPub UI",
+  "manifest_version": 2,
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "lib/jquery-3.4.1.min.js",
+      "lib/lodash-core.js",
+      "lib/http.js",
+      "js/background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "img/logo.png",
+		"default_popup": "popup.html",
+    "default_title": "QRCodeGen for MoPub UI"
+  },
+  "icons": {
+		"16": "img/logo.png",
+		"48": "img/logo.png",
+		"128": "img/logo.png"
+  },
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.mopub.com/",
+    "*://*.datswatsup.com/",
+		"notifications"
+  ]
+}
